@@ -1,0 +1,29 @@
+@font-face {
+  font-family: bliss pro regular;
+  src: url(../Fonts/BlissPro-Regular.otf)
+}
+
+* {
+  margin: 0
+}
+
+body {
+  background: #10090a;
+  color: #fff;
+  font-family: bliss pro regular, sans-serif;
+  overflow-x: hidden
+}
+
+.Section {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Flow {
+  display: flex;
+  flex-direction: column;
+  background: #58171d;
+  max-width: 1360px;
+  width: 100%;
+}
